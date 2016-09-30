@@ -2,7 +2,7 @@
 
 # Site settings
 title: Saurabh Kulkarni.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Test description"
 analytics: 
 baseurl: "" #important: start with /
 url: "http://saurabhkulkarni2312.github.io"
@@ -26,16 +26,11 @@ colors:  #in hex code if not noted else
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
+  - title: linkedin
     url:
-  - title: facebook
+  - title: github
     url:
-  - title: twitter
-    url: 
-  - title: instagram
-    url: 
-  - title: tumblr
-    url: 
+
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
