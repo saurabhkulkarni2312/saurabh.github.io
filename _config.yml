@@ -5,7 +5,7 @@ title: Saurabh Kulkarni.
 description: "Test description"
 analytics: 
 baseurl: "" #important: start with /
-url: "http://saurabhkulkarni2312.github.io"
+url: ""
 
 # Build settings
 markdown: kramdown
