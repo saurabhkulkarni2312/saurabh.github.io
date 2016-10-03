@@ -13,6 +13,10 @@
                     {% for network in site.social %}
                         <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
                     {% endfor %}
+                    &nbsp
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
                     &nbsp;
                     <a class="github-button" href="https://github.com/saurabhkulkarni2312" data-style="mega" aria-label="Follow @saurabhkulkarni2312 on GitHub">GitHub</a>
                     <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
