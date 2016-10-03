@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: Saurabh.
+title: Saurabh Kulkarni
 description: "Masters Student at UCSD"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: ""
+url: "https://saurabhkulkarni2312.github.io/"
 
 # Build settings
 markdown: kramdown
@@ -40,7 +40,7 @@ address:
     - San Diego,
     - CA, United States.
 email: saurabhkulkarni2312@gmail.com
-#tel: +34 8493-4893
+#tel: 
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
