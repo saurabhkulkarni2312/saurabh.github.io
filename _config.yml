@@ -27,78 +27,31 @@ colors:  #in hex code if not noted else
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: LinkedIN
-    url:
+    url: https://www.linkedin.com/in/saurabhkulkarni2312
   - title: Github
-    url:
+    url: https://github.com/saurabhkulkarni2312
+  - title: Portfolium
+    url: https://portfolium.com/saurabhkulkarni
 
     
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
-    - UCSD,
-    - 23890, San Diego,
+    - San Diego,
     - CA, United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+email: saurabhkulkarni2312@gmail.com
+#tel: +34 8493-4893
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
     
 # Members information. Shown on About page.
-members:
-  - name: Mark Webber
-    position: CEO
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team01.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Paul Jameson
-    position: Lead Designer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team02.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Laura Sommers
-    position: Lead Developer
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team03.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
-  - name: Martin Blunt
-    position: Marketing
-    text: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-    img: team04.jpg
-    social:
-      - title: envelope #use for email address
-        url: mailto:name@domain.com
-      - title: twitter
-        url: http://twitter.com/handle
+
     
-# Clients information. Shown on Home and About pages.
-# clients:
-#  - name: dribbble
-#    img: client01.png
-#  - name: Code is Poetry
-#    img: client02.png
-#  - name: Vimeo
-#    img: client03.png
-#  - name: VimeoPro
-#    img: client04.png
-    
-# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Masters Students in UCSD"
+about: "Thanks for visiting. This site is under construction. Do reach me out on LinkedIn or through gmail"
 
 # Testimonial content. Shown on Home and About page. 
-testimonial:
-    message: Masters Students in UCSD. Test"
-    author: 
-    position: 
+#testimonial:
+#    message: Masters Students in UCSD."
+#    author: 
+#    position: 
