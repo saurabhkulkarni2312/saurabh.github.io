@@ -1,8 +1,8 @@
 ---
 layout: project
-title:  "YOUR PROJECT NAME"
-date:   2014-04-25 16:54:46
-author: Marcel Newman
+title:  "BNP Paribas Cardif - Claims Management System"
+date:   2016-04-25 16:54:46
+author: Saurabh
 categories:
 - project
 img: portfolio_10.jpg
