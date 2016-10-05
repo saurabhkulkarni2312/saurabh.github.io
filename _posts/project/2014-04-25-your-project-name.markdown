@@ -9,8 +9,6 @@ img: bnp.jpg
 thumb: bnpthumb.jpg
 carousel:
 - single01.jpg
-- single02.jpg
-- single03.jpg
 tagged: R Programming, Data Visualization, Rare-class classification, Kaggle
 client: 
 website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/BNP-Paribas-Claims-Management
