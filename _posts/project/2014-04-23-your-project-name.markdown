@@ -5,15 +5,15 @@ date:   2014-05-25 16:54:46
 author: Marcel Newman
 categories:
 - project
-img: portfolio_02.jpg
-thumb: thumb02.jpg
+img: mnist.jpg
+thumb: mnistthumb.jpg
 carousel:
 - single01.jpg
 - single02.jpg
 - single03.jpg
 tagged: Flat, UI, Development
 client: Wonder Corp.
-website: http://blacktie.co
+website: https://github.com/saurabhkulkarni2312/Python-Projects/tree/master/MNIST-Classification
 ---
 #### Handwritten Digit Classification using MNIST Data
 
