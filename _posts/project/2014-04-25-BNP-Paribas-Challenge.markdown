@@ -1,7 +1,7 @@
 ---
 layout: project
-title:  "BNP Paribas Cardif - Claims Management System"
-date:   2014-04-25 16:54:46
+title: "BNP Paribas Cardif - Claims Management System"
+date: 2014-04-25 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
@@ -12,7 +12,7 @@ carousel:
 [//] <> (- single02.jpg)
 [//] <> (- single03.jpg)
 tagged: R Programming, Data Visualization, Rare-class classification, Kaggle
-client: Wonder Corp.
+client: 
 website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/BNP-Paribas-Claims-Management
 ---
 ####YOUR PROJECT NAME
