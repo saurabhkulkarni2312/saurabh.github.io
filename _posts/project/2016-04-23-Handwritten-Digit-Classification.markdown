@@ -2,7 +2,7 @@
 layout: project
 title:  "Handwritten Digit Classification"
 date:   2014-05-25 16:54:46
-author: Marcel Newman
+author: Saurabh Kulkarni
 categories:
 - project
 img: mnist.jpg

@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "BNP Paribas Cardif - Claims Management System"
+title:  "Claims Management System"
 date:   2016-04-01 16:54:46
 author: Saurabh Kulkarni
 categories:
