@@ -5,8 +5,8 @@ date:   2016-03-16 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-img: snow-gauge.jpg
-thumb: bnpthumb.jpg
+img: snow.jpg
+thumb: 
 carousel:
 - single01.jpg
 tagged: R Programming, Data Visualization, Regression, Kaggle
