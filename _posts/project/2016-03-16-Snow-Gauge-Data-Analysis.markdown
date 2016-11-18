@@ -5,7 +5,7 @@ date:   2016-03-16 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-img: bnp.jpg
+img: snow-gauge.jpg
 thumb: bnpthumb.jpg
 carousel:
 - single01.jpg
