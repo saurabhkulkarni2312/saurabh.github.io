@@ -3,7 +3,7 @@ layout: blog
 title: Blog
 permalink: /writeup/
 ---
-
+<!--
 <hr>
     <table id="Posts" width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
         <tr>
@@ -22,18 +22,31 @@ permalink: /writeup/
         </tr>
     </table>
 
+-->
 
-
-<!-- 
 <div class="container mtb">
     <div class="row">
 
-           <div class="col-lg-8">
-        	<a href="/assets/img/SaurabhKulkarni_Resume.pdf">pdf file</a>
-    <!-- <img src="{{ "/assets/img/browser.jpg" | prepend: site.baseurl }}" class="img-responsive">  -->     
-     <!--       </div><! --/col-lg-8 -->
+        <! -- BLOG POSTS LIST -->
+        <div class="col-lg-8">
 
-<!--        {% include sidebar.html %} -->
+            {% for post in site.categories['blog'] %}
+                <! -- Blog Post -->
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
+                </a>    
+                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+                {{ post.excerpt }}
+                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
+                <div class="hline"></div>
 
- <!--    </div><! --/row -->
-<!-- </div><! --/container -->
+                <div class="spacing"></div>
+            {% endfor %}
+
+        </div><! --/col-lg-8 -->
+
+        {% include sidebar.html %}
+
+    </div><! --/row -->
+</div><! --/container -->
