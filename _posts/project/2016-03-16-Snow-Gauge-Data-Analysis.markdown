@@ -7,8 +7,6 @@ categories:
 - project
 img: snow.jpg
 thumb: 
-carousel:
-- single01.jpg
 tagged: R Programming, Data Visualization, Regression, Kaggle
 client: 
 website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/Calibrating-Snow-Gauges-Regression
