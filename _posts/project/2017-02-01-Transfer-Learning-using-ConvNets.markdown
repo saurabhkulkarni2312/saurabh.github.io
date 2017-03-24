@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Transfer Learning using ConvNets"
-date:   2017-02-01 16:54:46
+date:   2016-02-01 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
