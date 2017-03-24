@@ -7,11 +7,8 @@ categories:
 - project
 img: mnist.jpg
 thumb: mnistthumb.jpg
-<!--
-carousel:
-- single01.jpg
-- single02.jpg
-- single03.jpg -->
+<!--carousel:
+- single01.jpg-->
 tagged: Flat, UI, Development 
 client: Wonder Corp.
 website: https://github.com/saurabhkulkarni2312/Python-Projects/tree/master/MNIST-Classification
