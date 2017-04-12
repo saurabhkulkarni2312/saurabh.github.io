@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Computer Vision Projects - Part 2"
-date: 2014-04-25 16:54:46
+date: 2014-04-24 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
