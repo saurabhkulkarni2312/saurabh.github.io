@@ -11,8 +11,24 @@ thumb: mnistthumb.jpg
 - single01.jpg-->
 tagged: Flat, UI, Development 
 client: Wonder Corp.
-Ipython notebook: https://github.com/saurabhkulkarni2312/Python-Projects/blob/master/MNIST-Classification/MNIST-Classification.ipynb
+Website: [Ipython Notebook](https://github.com/saurabhkulkarni2312/Python-Projects/blob/master/MNIST-Classification/MNIST-Classification.ipynb)
 ---
+### Ipython Notebook for Part 1
+```html
+<div class="container mtb">
+    <div class="row">
+           <div class="col-lg-8">
+        	<a href="/assets/img/SaurabhKulkarni_Resume.pdf">pdf file</a>
+            <!-- <img src="{{ "/assets/img/browser.jpg" | prepend: site.baseurl }}" class="img-responsive"> -->      
+           </div><! --/col-lg-8 -->
+
+<!--        {% include sidebar.html %} -->
+
+    </div><! --/row -->
+</div><! --/container -->
+```
+
+
 ## Aim
 We have a data set of handwritten digits (MNIST) and our aim is to build a classifier to identify which digit the image represents.
 In technical terms, we have to design a classifier with 10 classes representing the digit. We will use three strategies to solve the same problem:
