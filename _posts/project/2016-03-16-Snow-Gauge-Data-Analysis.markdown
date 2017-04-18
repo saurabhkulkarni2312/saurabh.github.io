@@ -11,12 +11,12 @@ thumb:
 - single01.jpg -->
 tagged: R Programming, Data Visualization, Regression, Kaggle
 client: 
-website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/Calibrating-Snow-Gauges-Regression
+website: [Github Repo](https://github.com/saurabhkulkarni2312/R-Projects/tree/master/Calibrating-Snow-Gauges-Regression)
 ---
 #### Objective
 Recommendations for Calibration Snow Gauges
 #### Project Links
-[Ipython Notebook](../assets/writeups/Recommendations-for-calibrating-gauges.html)
+[R Notebook](../assets/writeups/Recommendations-for-calibrating-gauges.html)
 
 #### Project Details
 **Aim** was to find a relationship between the density with respect to gain and evaluate the performance of linear regression.
