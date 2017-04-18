@@ -5,13 +5,15 @@ date:   2014-05-25 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
+- Bayesian Inference
+- Maximum likelihood
 img: mnist.jpg
 thumb: mnistthumb.jpg
 <!--carousel:
 - single01.jpg-->
 tagged: Flat, UI, Development 
 client: Wonder Corp.
-Website: See link in description
+[//]: <> (Website: See link in description)
 ---
 
 ## Aim

@@ -5,22 +5,24 @@ date:   2016-04-01 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
+- R Programming
+- Data Visualization
+- Rare-class classification 
+- Kaggle
 img: bnp.jpg
 thumb: bnpthumb.jpg
 <!--carousel:
 - single01.jpg-->
-tagged: R Programming, Data Visualization, Rare-class classification, Kaggle
+tagged: 
 client: 
-website: See links for description
+[//]: <> (website: Links in description)
 ---
 #### Objective
 Predictive Modelling for Insurance Claim Approvals
 
 #### Project Report and Code
-Detailed Report:
-[Link](../assets/writeups/Insurance-Claims-Classification-Report.pdf)
+[Project Report](../assets/writeups/Insurance-Claims-Classification-Report.pdf)
 
-Code:
 [Github Repo](https://github.com/saurabhkulkarni2312/R-Projects/tree/master/BNP-Paribas-Claims-Management)
 
 #### Project Details
