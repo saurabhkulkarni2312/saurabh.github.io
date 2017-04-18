@@ -5,17 +5,13 @@ date:   2016-04-01 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-- R Programming
-- Data Visualization
-- Rare-class classification 
-- Kaggle
 img: bnp.jpg
 thumb: bnpthumb.jpg
 <!--carousel:
 - single01.jpg-->
 tagged: 
 client: 
-[//]: <> (website: Links in description)
+website: Links in description
 ---
 #### Objective
 Predictive Modelling for Insurance Claim Approvals

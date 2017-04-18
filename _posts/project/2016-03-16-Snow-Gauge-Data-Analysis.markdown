@@ -5,16 +5,13 @@ date:   2016-03-16 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-- R Programming 
-- Data Visualization 
-- Regression
 img: snow.jpg
 thumb: 
 <!-- carousel: 
 - single01.jpg -->
 tagged: 
 client: 
-[//]: <> (website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/Calibrating-Snow-Gauges-Regression)
+website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/Calibrating-Snow-Gauges-Regression
 ---
 #### Objective
 Recommendations for Calibration Snow Gauges
