@@ -11,10 +11,14 @@ thumb: bnpthumb.jpg
 - single01.jpg-->
 tagged: R Programming, Data Visualization, Rare-class classification, Kaggle
 client: 
-website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/BNP-Paribas-Claims-Management
+website: See links for description
 ---
 #### Objective
 Predictive Modelling for Insurance Claim Approvals
+
+#### Project Report and Code
+[Project Report](../assets/writeups/Insurance-Claims-Classification-Report.pdf)
+[Github Repo](https://github.com/saurabhkulkarni2312/R-Projects/tree/master/BNP-Paribas-Claims-Management)
 
 #### Project Details
 **Aim** was implement a R based robust rare class classification model to accelerate claims management processes of BNP Paribas Cardif. The parameter to be evaluated was class probabilities i.e. probability the datapoint belongs to class 0 or 1. 

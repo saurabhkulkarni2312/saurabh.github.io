@@ -15,6 +15,8 @@ website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/Calibrati
 ---
 #### Objective
 Recommendations for Calibration Snow Gauges
+#### Project Links
+[Ipython Notebook](../assets/writeups/Recommendations-for-calibrating-gauges.html)
 
 #### Project Details
 **Aim** was to find a relationship between the density with respect to gain and evaluate the performance of linear regression.
