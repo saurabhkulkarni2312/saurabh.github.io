@@ -13,21 +13,17 @@ tagged: Flat, UI, Development
 client: Wonder Corp.
 Website: https://github.com/saurabhkulkarni2312/Python-Projects/blob/master/MNIST-Classification/MNIST-Classification.ipynb
 ---
-### Ipython Notebook for Part 1
-
 
 ## Aim
 We have a data set of handwritten digits (MNIST) and our aim is to build a classifier to identify which digit the image represents.
 In technical terms, we have to design a classifier with 10 classes representing the digit. We will use three strategies to solve the same problem:
 
-1. Bayes Classifier: [Ipython Notebook](https://github.com/saurabhkulkarni2312/Python-Projects/blob/master/MNIST-Classification/MNIST-Classification.ipynb)
+1. Bayes Classifier: [Ipython Notebook](~/assets/writeups/MNIST-Classification-Bayesian.html)
+```html
+<a href="/assets/writeups/MNIST-Classification-Bayesian.html"> Link </a>
+```
 2. Gradient Descent using softmax function
 3. Feed forward Neural Network using backpropagation learning
-
-```html
-<a href="/assets/img/SaurabhKulkarni_Resume.pdf">pdf file</a>
-```
-
 
 #### Data:
 Data was obtained from the following website:
