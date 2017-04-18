@@ -11,7 +11,7 @@ thumb: mnistthumb.jpg
 - single01.jpg-->
 tagged: Flat, UI, Development 
 client: Wonder Corp.
-Website: [Ipython Notebook](https://github.com/saurabhkulkarni2312/Python-Projects/blob/master/MNIST-Classification/MNIST-Classification.ipynb)
+Website: https://github.com/saurabhkulkarni2312/Python-Projects/blob/master/MNIST-Classification/MNIST-Classification.ipynb
 ---
 ### Ipython Notebook for Part 1
 
