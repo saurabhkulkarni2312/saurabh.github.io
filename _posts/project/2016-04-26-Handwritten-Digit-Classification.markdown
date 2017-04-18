@@ -18,7 +18,7 @@ Website: https://github.com/saurabhkulkarni2312/Python-Projects/blob/master/MNIS
 We have a data set of handwritten digits (MNIST) and our aim is to build a classifier to identify which digit the image represents.
 In technical terms, we have to design a classifier with 10 classes representing the digit. We will use three strategies to solve the same problem:
 
-1. Bayes Classifier: [Ipython Notebook](~/assets/writeups/MNIST-Classification-Bayesian.html)
+1. Bayes Classifier: [Ipython Notebook](../assets/writeups/MNIST-Classification-Bayesian.html)
 ```html
 <a href="/assets/writeups/MNIST-Classification-Bayesian.html"> Link </a>
 ```
