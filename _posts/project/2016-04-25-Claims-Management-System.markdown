@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Claims Management System"
-date:   2016-04-01 16:54:46
+date: 2016-04-01 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
@@ -11,7 +11,7 @@ thumb: bnpthumb.jpg
 - single01.jpg-->
 tagged: 
 client: 
-website: Links in description
+website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/BNP-Paribas-Claims-Management
 ---
 #### Objective
 Predictive Modelling for Insurance Claim Approvals

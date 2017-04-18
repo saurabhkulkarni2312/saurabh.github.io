@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Handwritten Digit Classification"
-date:   2014-05-25 16:54:46
+date: 2014-05-25 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
@@ -11,8 +11,7 @@ thumb: mnistthumb.jpg
 - single01.jpg-->
 tagged: Flat, UI, Development 
 client: Wonder Corp.
-Website:
-[//]: <> (Website: See link in description)
+Website: ../assets/writeups/MNIST-Classification-Bayesian.html
 ---
 
 ## Aim

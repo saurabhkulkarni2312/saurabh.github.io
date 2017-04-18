@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Recommendations for Calibration Snow Gauges"
-date:   2016-03-16 16:54:46
+date: 2016-03-16 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
