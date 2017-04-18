@@ -28,6 +28,8 @@ List of Case studies:
 
 ---
 
+---
+
 #### Recommendations for Calibration Snow Gauges
 #### Project Links
 [Calibration of Snow Gauges Code](../assets/writeups/Recommendations-for-calibrating-gauges.html)
@@ -43,6 +45,8 @@ Here, I have tried to observe how well simple models like linear and log-linear 
 The aim was not to fit best model but to evaluate the performance of linear regression model (with and without log transformation) and see what all tests we can perform to visualize the performance. For detailed analysis report do checkout the R notebook on my Github page
 
 ---
+
+___
 
 #### Searching for potential replication sites in Human Cytomegalovirus (HCMV) DNA data
 #### Project Links
@@ -62,7 +66,10 @@ Researchers believe that palindrome sites in DNA might be such locations which c
 Hence, we are seeking to identify those certain clusters of palindromes in HCMV DNA Data are statistically dierent from the other
 clusters. In other words, certain clusters of palindromes that do not occur by random chance given the
 distribution of the clusters may signify the location of the origin of replication. The researchers working on HCMV should begin their search and medical research within these clusters, to save time.
+
 ---
+
+___
 
 #### Explore effect of maternal smoking on infant birth weights
 #### Project Links
