@@ -18,6 +18,7 @@ Predictive Modelling for Insurance Claim Approvals
 
 #### Project Report and Code
 [Project Report](../assets/writeups/Insurance-Claims-Classification-Report.pdf)
+
 [Github Repo](https://github.com/saurabhkulkarni2312/R-Projects/tree/master/BNP-Paribas-Claims-Management)
 
 #### Project Details
