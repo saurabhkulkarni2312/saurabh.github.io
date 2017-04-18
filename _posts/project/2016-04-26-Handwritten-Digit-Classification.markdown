@@ -14,19 +14,6 @@ client: Wonder Corp.
 Website: [Ipython Notebook](https://github.com/saurabhkulkarni2312/Python-Projects/blob/master/MNIST-Classification/MNIST-Classification.ipynb)
 ---
 ### Ipython Notebook for Part 1
-```html
-<div class="container mtb">
-    <div class="row">
-           <div class="col-lg-8">
-        	<a href="/assets/img/SaurabhKulkarni_Resume.pdf">pdf file</a>
-            <!-- <img src="{{ "/assets/img/browser.jpg" | prepend: site.baseurl }}" class="img-responsive"> -->      
-           </div><! --/col-lg-8 -->
-
-<!--        {% include sidebar.html %} -->
-
-    </div><! --/row -->
-</div><! --/container -->
-```
 
 
 ## Aim
@@ -36,6 +23,11 @@ In technical terms, we have to design a classifier with 10 classes representing 
 1. Bayes Classifier: [Ipython Notebook](https://github.com/saurabhkulkarni2312/Python-Projects/blob/master/MNIST-Classification/MNIST-Classification.ipynb)
 2. Gradient Descent using softmax function
 3. Feed forward Neural Network using backpropagation learning
+
+```html
+<a href="/assets/img/SaurabhKulkarni_Resume.pdf">pdf file</a>
+```
+
 
 #### Data:
 Data was obtained from the following website:
