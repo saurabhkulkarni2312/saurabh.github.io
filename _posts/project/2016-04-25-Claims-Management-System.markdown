@@ -4,7 +4,10 @@ title:  "Claims Management System"
 date: 2016-04-01 16:54:46
 author: Saurabh Kulkarni
 categories:
-- project
+- Data visualization
+- Rare-class classification
+- log-loss
+- xgboost
 img: bnp.jpg
 thumb: bnpthumb.jpg
 <!--carousel:

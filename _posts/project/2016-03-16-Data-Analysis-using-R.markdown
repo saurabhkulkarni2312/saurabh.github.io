@@ -13,7 +13,6 @@ tagged:
 client: 
 website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/Calibrating-Snow-Gauges-Regression
 ---
-## Data Analysis using R
 These case studies were performed for the course **Data Analysis using R** offered by the Math and Statistics Department at UCSD. 
 Each of these projects were done in groups of 2 or 3. Through these projects I was able to implement a typical data analysis workflow 
 right from cleaning the data to visualizations to choosing features to modeling and finally interpreting results.
