@@ -8,7 +8,7 @@ categories:
 img: cv1.PNG
 <!--carousel:
 - single01.jpg-->
-tagged: Python, Recommendation System
+tagged: MATLAN, Computer Vision
 ---
 ### Image Transformations and Albedo Detection for given lightsources
 #### Project Details

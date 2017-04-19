@@ -8,7 +8,7 @@ categories:
 img: cv2.PNG
 <!--carousel:
 - single01.jpg-->
-tagged: Python, Recommendation System
+tagged: MATLAB, Computer Vision
 ---
 
 ### Lane Detection using Canny Edge Detector 
