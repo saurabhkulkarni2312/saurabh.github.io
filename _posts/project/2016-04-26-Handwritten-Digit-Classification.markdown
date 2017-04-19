@@ -9,7 +9,7 @@ img: mnist.jpg
 thumb: mnistthumb.jpg
 <!--carousel:
 - single01.jpg-->
-tagged: Flat, UI, Development 
+tagged: Python, Bayesian Inference, Stochastic GD, Batch learning, Neural Network, Backprop
 client: Wonder Corp.
 Website: ../assets/writeups/MNIST-Classification-Bayesian.html
 ---

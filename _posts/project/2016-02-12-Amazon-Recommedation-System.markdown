@@ -8,7 +8,7 @@ categories:
 img: amz2.PNG
 <!--carousel:
 - single01.jpg-->
-tagged: Python, Recommendation System
+tagged: Python, Recommendation System, Latent Factor Models, Collaborative Filtering, Alternating LS
 ---
 #### Objective
 Write Objective

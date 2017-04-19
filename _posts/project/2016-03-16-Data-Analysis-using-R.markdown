@@ -9,7 +9,7 @@ img: snow.jpg
 thumb: 
 <!-- carousel: 
 - single01.jpg -->
-tagged: 
+tagged: R programming, visualizations, Regression, Project Reports
 client: 
 website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/Calibrating-Snow-Gauges-Regression
 ---
