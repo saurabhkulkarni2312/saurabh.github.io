@@ -9,6 +9,7 @@ img: amz2.PNG
 <!--carousel:
 - single01.jpg-->
 tagged: Python, Recommendation System, Latent Factor Models, Collaborative Filtering, Alternating LS
+
 ---
 ### Objective
 1.	To predict the rating a user may give to an item based on available review records.
@@ -48,7 +49,7 @@ that for a higher value of outOf, typically nHelpful is almost same as outOf. Si
 #### Part 1: Ratings prediction
 **Baselines**: Here we say Ratings is equal to the global average of all ratings. Clearly this is a very simple but poor predictor.
 
-**Beta model**: We say *Ratings ~ &#945 + &#946<sub>i</sub> + &#946<sub>u</sub>*
+**Beta model**: We say *Ratings ~ $\alpha$ + & $\beta<sub>i</sub>$ + $\gamma<sub>u</sub>$*
 
 #### Part 2: Helpfulness prediction
 **Baselines Model**: Predict Helpfulness Ratio as the same as the average ratio or mean Helpfulness ratio as prediction and then find nHelpful by multiplying the ratio with
