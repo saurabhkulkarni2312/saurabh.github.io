@@ -49,7 +49,29 @@ that for a higher value of outOf, typically nHelpful is almost same as outOf. Si
 #### Part 1: Ratings prediction
 **Baselines**: Here we say Ratings is equal to the global average of all ratings. Clearly this is a very simple but poor predictor.
 
-**Beta model**: We say *Ratings ~ $\alpha$ + & $\beta<sub>i</sub>$ + $\gamma<sub>u</sub>$*
+**Beta model**: We say *Ratings ~ $\alpha$ + & $\beta<sub>i</sub>$ + $\beta<sub>u</sub>$*. 
+Here \alpha is global average rating, \beta<sub>u</sub> accounts for variability in rating from user to user and \beta<sub>i</sub> accounts for variability in rating from item to item
+
+This takes into account the characteristics of the user and item which aects the rating.
+We minimize the objective function and terminate the iterations only when the objective
+function changes only by a small amount of 10<sup>-7 </sup> in consequent iterations for convergence. 
+We use regularization parameter lambda to avoid overfitting. lambda is chosen as the one which
+minimizes the MSE on the validation set.
+
+**Latent Factor Model**: 
+The above model is a linear model. there is a nonlinear relationship that exist in
+the users and the way they rate certain items. The alpha or beta components do not account for variability in how a particular user will rate a particular item.
+We take an additional pair of parameters \gamma_u and \gammai and multiply them and add it to our ratings predictor model. These gamma's will be two dimensional matrices with sizes [U,k] and [k,I].
+
+*Ratings ~ \alpha + & \beta<sub>i</sub>$ + \beta<sub>u</sub> + \gamma<sub>u</sub>\gamma<sub>u</sub>$*
+
+The product term incorporates how user "u" would rate an item "i". This non-
+linear term is able to capture the richness in variability of the objective function and hence
+we have a better predictor to model the ratings. So we need to estimate 5 parameters during training and use two hyperparameters \lambda and k during validation to tune the model
+
+Here I tested two ways for convergence a non optimal [Vanilla Gradiant Descent](https://en.wikipedia.org/wiki/Gradient_descent) and faster [Alternating Least Squares](https://www.quora.com/What-is-the-Alternating-Least-Squares-method-in-recommendation-systems)
+
+While GD took ages to converge, ALS converged more efficiently. Latent factor with Alt. Least Squares was best predictor and a robust technique of ratings prediction.
 
 #### Part 2: Helpfulness prediction
 **Baselines Model**: Predict Helpfulness Ratio as the same as the average ratio or mean Helpfulness ratio as prediction and then find nHelpful by multiplying the ratio with
@@ -67,6 +89,6 @@ predictive accuracy and control overfitting. The RF hyperparameters: maxdepth, n
 **Gradient Boosted Regression**: 
 Gradient Boosted Regressor builds an additive model in a forward stage-wise fashion; it allows for the optimization of arbitrary loss functions. In each stage
 a regression tree is t on the negative gradient of the loss function. The hyperparameters that I were again tuned to avoid overfitting. The advantage of using an ensemble
-technique like boosting is that we incrementally keep on building a better model which works best for us.
+technique like boosting is that we can incrementally keep on building a better model which works best for us.
 
 Of all the models: Gradient Boosting gave the least MAE followed by Random Forest
