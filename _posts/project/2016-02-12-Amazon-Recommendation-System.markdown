@@ -69,7 +69,9 @@ The product term incorporates how user "u" would rate an item "i". This non-
 linear term is able to capture the richness in variability of the objective function and hence
 we have a better predictor to model the ratings. So we need to estimate 5 parameters during training and use two hyperparameters \lambda and k during validation to tune the model
 
-Here I tested two ways for convergence a non optimal [Vanilla Gradiant Descent](https://en.wikipedia.org/wiki/Gradient_descent) and faster [Alternating Least Squares](https://www.quora.com/What-is-the-Alternating-Least-Squares-method-in-recommendation-systems)
+Here I tested two ways for convergence:
+ - a non optimal [Vanilla Gradiant Descent](https://en.wikipedia.org/wiki/Gradient_descent) 
+ - more efficient [Alternating Least Squares](https://www.quora.com/What-is-the-Alternating-Least-Squares-method-in-recommendation-systems)
 
 While GD took ages to converge, ALS converged more efficiently. Latent factor with Alt. Least Squares was best predictor and a robust technique of ratings prediction.
 
