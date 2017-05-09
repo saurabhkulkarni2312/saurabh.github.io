@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Computer Vision Projects - Part 1"
+title:  "Image Processing"
 date: 2014-04-25 16:54:46
 author: Saurabh Kulkarni
 categories:
@@ -8,7 +8,7 @@ categories:
 img: cv1.PNG
 <!--carousel:
 - single01.jpg-->
-tagged: MATLAN, Computer Vision
+tagged: MATLAB, Image Processing
 ---
 ### Image Transformations and Albedo Detection for given lightsources
 #### Project Details

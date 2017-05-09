@@ -13,8 +13,11 @@ tagged: Python, Recommendation System, Latent Factor Models, Collaborative Filte
 ### Objective
 1.	To predict the rating a user may give to an item based on available review records.
 2.	Based on the review text, predict whether a user’s review of an item will be considered helpful or not
+
 ### Project Details
-####Data:
+
+#### Data:
+
 The given data comprises of a database of actual amazon reviews (JSON File). The data had *200000* samples.
 
 The training data  was clean and organized and it had the following features:
@@ -45,7 +48,7 @@ that for a higher value of outOf, typically nHelpful is almost same as outOf. Si
 #### Part 1: Ratings prediction
 **Baselines**: Here we say Ratings is equal to the global average of all ratings. Clearly this is a very simple but poor predictor.
 
-**Beta model**: We say *Ratings ~ a + b_i + b_u*
+**Beta model**: We say *Ratings ~ &#945 + &#946<sub>i</sub> + &#946<sub>u</sub>*
 
 #### Part 2: Helpfulness prediction
 **Baselines Model**: Predict Helpfulness Ratio as the same as the average ratio or mean Helpfulness ratio as prediction and then find nHelpful by multiplying the ratio with
