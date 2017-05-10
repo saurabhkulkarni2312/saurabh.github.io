@@ -50,12 +50,12 @@ that for a higher value of outOf, typically nHelpful is almost same as outOf. Si
 **Baselines**: Here we say Ratings is equal to the global average of all ratings. Clearly this is a very simple but poor predictor.
 
 **Beta model**: We say *Ratings ~ &alpha; +  &beta;<sub>i</sub> + &beta;<sub>u</sub>*. 
-Here \alpha is global average rating, \beta<sub>u</sub> accounts for variability in rating from user to user and \beta<sub>i</sub> accounts for variability in rating from item to item
+Here \alpha is global average rating, *&beta;<sub>u</sub>* accounts for variability in rating from user to user and *&beta;<sub>i</sub>* accounts for variability in rating from item to item
 
 This takes into account the characteristics of the user and item which aects the rating.
 We minimize the objective function and terminate the iterations only when the objective
 function changes only by a small amount of 10<sup>-7 </sup> in consequent iterations for convergence. 
-We use regularization parameter lambda to avoid overfitting. lambda is chosen as the one which
+We use regularization parameter *&lambda;* to avoid overfitting. *&lambda;* is chosen as the one which
 minimizes the MSE on the validation set.
 
 **Latent Factor Model**: 
@@ -63,11 +63,11 @@ The above model is a linear model. there is a nonlinear relationship that exist 
 the users and the way they rate certain items. The alpha or beta components do not account for variability in how a particular user will rate a particular item.
 We take an additional pair of parameters \gamma_u and \gammai and multiply them and add it to our ratings predictor model. These gamma's will be two dimensional matrices with sizes [U,k] and [k,I].
 
-*Ratings ~ &alpha; + &beta;<sub>i</sub> + &beta;<sub>u</sub> + &gamma;<sub>u</sub>&gamma;<sub>u</sub>*
+*Ratings ~ &alpha; + &beta;<sub>i</sub> + &beta;<sub>u</sub> + &gamma;<sub>u</sub>&gamma;<sub>i</sub>*
 
-The product term incorporates how user "u" would rate an item "i". This non-
+The product term *&gamma;<sub>u</sub>&gamma;<sub>i</sub>* incorporates how user "u" would rate an item "i". This non-
 linear term is able to capture the richness in variability of the objective function and hence
-we have a better predictor to model the ratings. So we need to estimate 5 parameters during training and use two hyperparameters \lambda and k during validation to tune the model
+we have a better predictor to model the ratings. So we need to estimate 5 parameters during training and use two hyperparameters *&lambda;* and k during validation to tune the model
 
 Here I tested two ways for convergence:
  - a non optimal [Vanilla Gradiant Descent](https://en.wikipedia.org/wiki/Gradient_descent) 
