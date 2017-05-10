@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Claims Management System"
+title:  "Rare-Class Claims Classification System"
 date: 2016-04-01 16:54:46
 author: Saurabh Kulkarni
 categories:
@@ -9,7 +9,7 @@ img: bnp.jpg
 thumb: bnpthumb.jpg
 <!--carousel:
 - single01.jpg-->
-tagged: Data visualization, Rare-class classification, log-loss, xgboost
+tagged: Data visualization, imbalanced data, log-loss, random forest, xgboost
 client: 
 website: https://github.com/saurabhkulkarni2312/R-Projects/tree/master/BNP-Paribas-Claims-Management
 ---
