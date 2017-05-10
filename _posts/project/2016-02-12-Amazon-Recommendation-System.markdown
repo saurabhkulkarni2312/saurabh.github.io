@@ -49,7 +49,7 @@ that for a higher value of outOf, typically nHelpful is almost same as outOf. Si
 #### Part 1: Ratings prediction
 **Baselines**: Here we say Ratings is equal to the global average of all ratings. Clearly this is a very simple but poor predictor.
 
-**Beta model**: We say *Ratings ~ &alpha; +  &beta;<sub>i</sub>$ + &beta;<sub>u</sub>$*. 
+**Beta model**: We say *Ratings ~ &alpha; +  &beta;<sub>i</sub> + &beta;<sub>u</sub>*. 
 Here \alpha is global average rating, \beta<sub>u</sub> accounts for variability in rating from user to user and \beta<sub>i</sub> accounts for variability in rating from item to item
 
 This takes into account the characteristics of the user and item which aects the rating.
@@ -63,7 +63,7 @@ The above model is a linear model. there is a nonlinear relationship that exist 
 the users and the way they rate certain items. The alpha or beta components do not account for variability in how a particular user will rate a particular item.
 We take an additional pair of parameters \gamma_u and \gammai and multiply them and add it to our ratings predictor model. These gamma's will be two dimensional matrices with sizes [U,k] and [k,I].
 
-*Ratings ~ &alpha; + &beta;<sub>i</sub>$ + &beta;<sub>u</sub> + &gamma;<sub>u</sub>&gamma;<sub>u</sub>$*
+*Ratings ~ &alpha; + &beta;<sub>i</sub> + &beta;<sub>u</sub> + &gamma;<sub>u</sub>&gamma;<sub>u</sub>*
 
 The product term incorporates how user "u" would rate an item "i". This non-
 linear term is able to capture the richness in variability of the objective function and hence
