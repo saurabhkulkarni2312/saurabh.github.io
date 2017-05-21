@@ -29,7 +29,7 @@ List of Case studies:
 
 ---
 
-#### Recommendations for Calibration Snow Gauges
+### Recommendations for Calibration Snow Gauges
 #### Project Links
 [Calibration of Snow Gauges Code](../assets/writeups/Recommendations-for-calibrating-gauges.html)
 
@@ -47,7 +47,7 @@ The aim was not to fit best model but to evaluate the performance of linear regr
 
 ___
 
-#### Searching for potential replication sites in Human Cytomegalovirus (HCMV) DNA data
+### Searching for potential replication sites in Human Cytomegalovirus (HCMV) DNA data
 #### Project Links
 [HCMV Code](../assets/writeups/HCMV.html)
 
@@ -70,9 +70,10 @@ distribution of the clusters may signify the location of the origin of replicati
 
 ___
 
-#### Explore effect of maternal smoking on infant birth weights
-#### Project Links
+### Explore effect of maternal smoking on infant birth weights
 
 #### Project Details
-**Aim** 
+**Aim**: This problem uses data to find if maternal smoking affects infant birth weights adversely or not. It explores the different confounding variables 
+that could mislead us during the analysis.
+
 **Description**: 

@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Machine Vision"
-date: 2014-04-24 16:54:46
+date: 2014-04-23 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
