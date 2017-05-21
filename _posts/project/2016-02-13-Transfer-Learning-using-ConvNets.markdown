@@ -29,12 +29,12 @@ Meaning we keep a feature kernel same for the same image for all images. This gi
 So say we build 20 such convolution output images which act as your first feature. Thus we reduce the trainable parameters to 3x3 + bias for every feature output. So if we have 20 features 20x3x3 + biases. 
 Thus if we have some processing power with us, we can now go even deeper and deeper.
 
-_Pooling_: In order to reduce the output image size we subsample it using Pooling. In max pooling we define a neighborhood (say 3x3) and keep only the max value of pixel in that neighbourhood.
+**Pooling**: In order to reduce the output image size we subsample it using Pooling. In max pooling we define a neighborhood (say 3x3) and keep only the max value of pixel in that neighbourhood.
 This reduces dimensionality by a huge amount.
 
-_Final Architechture_: We have a number of convolution layers and pooling layers and basically end up with a set of features based on image characteristics not just pixel values.  Now we have a final dense layer (softmax) to categorize each training image into its respective class.
+**Final Architechture**: We have a number of convolution layers and pooling layers and basically end up with a set of features based on image characteristics not just pixel values.  Now we have a final dense layer (softmax) to categorize each training image into its respective class.
 
-_Transfer Learning_: Training a deep CNN with high accuracy takes a lot of time. But we can use the fact that ultimately CNN is just detecting image characteristics to use a pretrained model. 
+**Transfer Learning**: Training a deep CNN with high accuracy takes a lot of time. But we can use the fact that ultimately CNN is just detecting image characteristics to use a pretrained model. 
 I have used a pretrained CNN model - VGG16 which is trained on for many images belonging to a 1000 classes. This model is available on Keras. The only change made is to replace the softmax layer (1000 classes) 
 with our own (256 classes for Caltech 256). Obviously we will have to retrain this softmax layer to fit our own dataset.
 
