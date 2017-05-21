@@ -27,12 +27,12 @@ _Convolutional Neural Networks (CNN)_ are very efficient in utilizing the spatia
 to build features, for example: horizontal gradient, vertical gradient, gaussian kernel, edge detector etc. Now the _same_ kernel traverses along the entire image to build convolution output.
 Meaning we keep a feature kernel same for the same image for all images. This gives translation invariance to the CNN layer. (If you are detecting a dog in an image, it doesn't matter where in the image it is located).
 So say we build 20 such convolution output images which act as your first feature. Thus we reduce the trainable parameters to 3x3 + bias for every feature output. So if we have 20 features 20x3x3 + biases. 
-Thus if we have some processing power with us, we can now go even deeper and deeper.
+Thus with the processing power available to us, we can now go build deeper number of layers with CNN model than a dense feed forward network.
 
 **Pooling**: In order to reduce the output image size we subsample it using Pooling. In max pooling we define a neighborhood (say 3x3) and keep only the max value of pixel in that neighbourhood.
 This reduces dimensionality by a huge amount.
 
-**Final Architechture**: We have a number of convolution layers and pooling layers and basically end up with a set of features based on image characteristics not just pixel values.  Now we have a final dense layer (softmax) to categorize each training image into its respective class.
+**Final Architecture**: We have a number of convolution layers and pooling layers and basically end up with a set of features based on image characteristics not just pixel values.  Now we have a final dense layer (softmax) to categorize each training image into its respective class.
 
 **Transfer Learning**: Training a deep CNN with high accuracy takes a lot of time. But we can use the fact that ultimately CNN is just detecting image characteristics to use a pretrained model. 
 I have used a pretrained CNN model - VGG16 which is trained on for many images belonging to a 1000 classes. This model is available on Keras. The only change made is to replace the softmax layer (1000 classes) 
