@@ -5,7 +5,7 @@ date: 2017-03-01 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-img: amz2.PNG
+img: amznew.png
 <!--carousel:
 - single01.jpg-->
 tagged: Python, Recommendation System, Latent Factor Models, Collaborative Filtering, Alternating LS

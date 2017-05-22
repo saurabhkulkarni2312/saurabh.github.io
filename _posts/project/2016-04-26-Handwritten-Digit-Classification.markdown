@@ -5,7 +5,7 @@ date: 2014-05-25 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-img: mnist.jpg
+img: mnistnew.png
 thumb: mnistthumb.jpg
 <!--carousel:
 - single01.jpg-->

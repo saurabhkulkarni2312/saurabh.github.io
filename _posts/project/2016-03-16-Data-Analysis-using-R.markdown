@@ -5,7 +5,7 @@ date: 2016-03-16 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-img: snow.jpg
+img: edanew.png
 thumb: 
 <!-- carousel: 
 - single01.jpg -->

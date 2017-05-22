@@ -5,7 +5,7 @@ date: 2016-04-01 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-img: bnp.jpg
+img: bnpnew.png
 thumb: bnpthumb.jpg
 <!--carousel:
 - single01.jpg-->
