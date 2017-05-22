@@ -5,7 +5,7 @@ date: 2014-04-25 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-img: rnn.jpg
+img: rnnnew.png
 <!--carousel:
 - single01.jpg-->
 tagged: Python, Keras, Tensorflow, Recurrent Neural Nets

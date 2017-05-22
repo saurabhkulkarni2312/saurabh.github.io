@@ -5,7 +5,7 @@ date: 2014-04-23 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-img: cv2.PNG
+img: cv2new.png
 <!--carousel:
 - single01.jpg-->
 tagged: MATLAB, Computer Vision

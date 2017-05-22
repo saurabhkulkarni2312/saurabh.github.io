@@ -5,7 +5,7 @@ date: 2014-04-22 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-img: cv1.PNG
+img: cv1new.png
 <!--carousel:
 - single01.jpg-->
 tagged: MATLAB, Image Processing

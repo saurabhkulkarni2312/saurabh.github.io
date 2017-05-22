@@ -5,7 +5,7 @@ date: 2014-04-22 16:54:46
 author: Saurabh Kulkarni
 categories:
 - project
-img: dsp.jpg
+img: dspnew.png
 <!--carousel:
 - single01.jpg-->
 tagged: MATLAB, DSP
