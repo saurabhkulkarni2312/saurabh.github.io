@@ -73,7 +73,11 @@ ___
 ### Explore effect of maternal smoking on infant birth weights
 
 #### Project Details
-**Aim**: This problem uses data to find if maternal smoking affects infant birth weights adversely or not. It explores the different confounding variables 
-that could mislead us during the analysis.
+**Aim**: This case study uses data to find if maternal smoking affects infant birth weights adversely or not. 
+The different confounding variables that could mislead us during the analysis were also explored. 
 
 **Description**: 
+This was part of a course project and I had to use extensive visualization like histograms, boxplots, QQ plots of higher 
+to illustrate whether or not smoking affects birthweights. The dataset allowed exploration into the possible confounding variables like family’s income, 
+mother’s education and whether they have an influence on the health of the child born. This exercise explored the correlation vs causation argument often 
+encountered in data science case studies.
