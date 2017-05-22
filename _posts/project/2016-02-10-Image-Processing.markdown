@@ -15,7 +15,7 @@ Here are some of the image processing problems I worked on through various proje
 Tool used: MATLAB.
 
 - **Image Transformations and Albedo Detection for given lightsources**
-Rendered the image of a face with two different point light sources using a
+Rendered the image of a face with two different point light sources using a
 Lambertian reflectance model. Two albedo maps were used.
 
 - **Corner Detection and Triangulation using Epipolar based Geometry**
